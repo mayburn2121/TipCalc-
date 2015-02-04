@@ -1,0 +1,91 @@
+﻿
+/*calcBody contains the entire tip calculator, all relevent elements are stored in
+    the calcBody.
+*/
+#calcBody{
+    border: solid;
+    border-width: 20px;
+    border-color: 	#000033;
+    max-width: 400px;
+    min-width:300px;
+    background-color: #000066;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+/*All elements within the border of the #calcBody*/
+#content {
+    text-align: center;
+    width:auto;
+
+}
+
+
+/*Title for the tip calculator called.... Tip Calculator*/
+#title {
+    font-size: 50px;
+    text-align:inherit;
+    width: auto;
+    
+}
+
+
+/* Every element involved with the input section. Everything between the Title 
+    and the button
+*/
+#input {
+    margin: 15px;
+}
+
+.inputValue {
+
+}
+
+#billTotal {
+
+}
+
+#tipPercent {
+
+}
+
+/*End of input area*/
+
+
+/*Submit button*/
+#submit {
+    margin: 15px;
+    width: 30%;
+}
+/*End of submit button*/
+
+
+
+/* Every element involved with displaying the results. Everything between the submit 
+    button and the bottom of the calculator.
+*/
+#output {
+    margin: 15px;
+}
+
+.result {
+
+}
+
+#tipAmount {
+
+}
+
+#totalPay {
+
+}
+
+
+
+
+h1, h2, h3, h4{
+    color: white;
+}
+
